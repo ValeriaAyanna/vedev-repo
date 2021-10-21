@@ -1,10 +1,23 @@
-:root {
+/*:root {
     --forest-green: #1a3f12;
-    --deep-forest-green: #132c0d;
+    --deep-deep-blue: #132c0d;
     --rich-black: #000a00;
     --norm-gold: #bd9a1c;
     --light-tan: #dbd5ad;
     --off-white: #f0eacd;
+}*/
+
+:root {
+    --deep-blue: #1a2a77;
+    /*forest-green*/
+    --deep-deep-blue: #141f59;
+    /*deep-deep-blue*/
+    --black-blue: #03050f;
+    /*norm-gold*/
+    --comp-white: #eef0ff;
+    /*light-tan*/
+    --blue-light-shadow: #374588;
+    --blue-dark-shadow: #0a102d;
 }
 
 
@@ -18,7 +31,7 @@
     /* Dropdown button on hover & focus */
     .dropdown-button:hover,
     .dropdown-button:focus {
-        background-color: var(--forest-green);
+        background-color: var(--deep-blue);
     }
     /* The container <div> - needed to position the dropdown content */
     .dropdown {
@@ -29,7 +42,7 @@
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #1a3f12;
+        background-color: var(--deep-blue);
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 5;
@@ -37,16 +50,16 @@
     }
     /* Links inside the dropdown */
     .dropdown-content a {
-        color: var(--light-tan);
+        color: var(--comp-white);
         padding: 12px 16px;
         text-decoration: none;
         display: block;
-        background-color: var(--forest-green);
-        border: 2px solid var(--deep-forest-green);
+        background-color: var(--deep-blue);
+        border: 2px solid var(--deep-deep-blue);
     }
     /* Change color of dropdown links on hover */
     .dropdown-content a:hover {
-        background-color: var(--deep-forest-green)
+        background-color: var(--deep-deep-blue)
     }
     /* Show the dropdown menu */
     .show-menu {
@@ -87,7 +100,7 @@
     /*-------------Show----------------*/
     #trial-run-header-section {
         position: sticky;
-        background-color: var(--forest-green);
+        background-color: var(--deep-blue);
         width: 100%;
         height: 5rem;
         margin: 0;
@@ -108,17 +121,17 @@
     }
     ul.navbar li>a:link {
         text-decoration: none;
-        color: var(--light-tan);
+        color: var(--comp-white);
     }
     ul.navbar li>a:visited {
         text-decoration: none;
-        color: var(--light-tan);
+        color: var(--comp-white);
     }
     /*--------Dropdown Menu (mobile)--------*/
     /* Dropdown Button */
     .dropdown-button {
-        background-color: var(--forest-green);
-        color: var(--light-tan);
+        background-color: var(--deep-blue);
+        color: var(--comp-white);
         padding: 16px;
         font-size: 16px;
         border: none;
@@ -139,7 +152,7 @@
         margin-left: 0;
     }
     .mobile-navbutton {
-        background-color: var(--forest-green);
+        background-color: var(--deep-blue);
         width: 100%;
         margin-left: 0;
         padding-left: 5%;
@@ -158,7 +171,7 @@
         padding: 0;
     }
     #trial-run {
-        background-color: var(--forest-green);
+        background-color: var(--deep-blue);
         width: 100%;
         height: 100vh;
     }
@@ -177,8 +190,8 @@
         margin-right: auto;
         /*Neomorphism Addition*/
         border-radius: 50%;
-        background: #1a3f12;
-        box-shadow: -16px 16px 68px #0a1907, 16px -16px 68px #2a651d;
+        background: var(--deep-blue);
+        box-shadow: -16px 16px 68px var(--blue-dark-shadow), 16px -16px 68px var(--blue-light-shadow);
     }
     h1.trial-run-landingText1 {
         text-align: center;
@@ -190,15 +203,15 @@
     }
     h3.trial-run-landingText {
         text-align: center;
-        color: var(--light-tan);
+        color: var(--comp-white);
         font-size: 2em;
         margin-top: 0%;
         margin-bottom: 15%;
         font-family: Corbel, sans-serif;
     }
     .trial-run-contact-button {
-        background-color: var(--norm-gold);
-        color: var(--norm-gold);
+        background-color: var(--black-blue);
+        color: var(--comp-white);
         border-radius: 20px;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -209,12 +222,12 @@
         text-transform: uppercase;
         font-family: Corbel, sans-serif;
         /*Neomorphism Addition Gold*/
-        background: #1a3f12;
-        box-shadow: -16px 16px 68px #0a1907, 16px -16px 68px #2a651d;
+        background: var(--black-blue);
+        box-shadow: -16px 16px 68px var(--blue-dark-shadow), 16px -16px 68px var(--blue-light-shadow);
     }
     .trial-run-contact-button:hover {
         background-color: var(--norm-gold);
-        color: var(--forest-green);
+        color: var(--deep-blue);
         border-radius: 20px;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -224,8 +237,8 @@
         text-decoration: none;
         text-transform: uppercase;
         /*Neomorphism Addition Gold*/
-        background: linear-gradient(225deg, #aa8b19, #caa51e);
-        box-shadow: -16px 16px 68px #0a1907, 16px -16px 68px #2a651d;
+        background: var(--comp-white);
+        box-shadow: -16px 16px 68px var(--blue-dark-shadow), 16px -16px 68px var(--blue-light-shadow);
         font-family: Corbel, sans-serif;
     }
     /*---------About Section---------*/
@@ -233,13 +246,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(100%, auto);
-        background-color: var(--light-tan);
+        background-color: var(--comp-white);
         height: 160vh;
         padding-top: 5em;
     }
     .about-text>h1 {
         display: inline-block;
-        color: var(--forest-green);
+        color: var(--deep-blue);
         font-size: 2em;
         text-justify: left;
         margin-top: 20%;
@@ -254,14 +267,14 @@
         font-family: Corbel, sans-serif;
     }
     .about-text>p {
-        color: var(--rich-black);
+        color: var(--black-blue);
         font-size: 100%;
         text-justify: left;
         padding-right: 10%;
     }
     .about-text {
         display: inline-block;
-        color: var(--rich-black);
+        color: var(--black-blue);
         margin-left: 10%;
     }
     .about-info {
@@ -274,7 +287,7 @@
         margin-top: 25%;
         margin-right: 10%;
         margin-left: 10%;
-        border: 0.5em solid var(--forest-green);
+        border: 0.5em solid var(--deep-blue);
         border-bottom-style: hidden;
         border-right-style: hidden;
         padding-left: 4%;
@@ -290,7 +303,7 @@
         margin-top: 5%;
         margin-right: 10%;
         margin-left: 10%;
-        border: 0.5em solid var(--forest-green);
+        border: 0.5em solid var(--deep-blue);
         border-bottom-style: hidden;
         border-right-style: hidden;
         padding-left: 4%;
@@ -322,8 +335,8 @@
         text-decoration: none;
     }
     .resume-link {
-        color: var(--deep-forest-green);
-        border: 2px solid var(--deep-forest-green);
+        color: var(--deep-deep-blue);
+        border: 2px solid var(--deep-deep-blue);
         border-radius: 20px;
         padding: 2%;
         font-size: 75%;
@@ -334,8 +347,8 @@
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(100%, auto);
         height: 100vh;
-        background-color: var(--forest-green);
-        color: var(--off-white);
+        background-color: var(--deep-blue);
+        color: var(--comp-white);
         padding-top: 5em;
     }
     .port-data {
@@ -343,7 +356,7 @@
     }
     .port-data>h1 {
         display: inline-block;
-        color: var(--off-white);
+        color: var(--comp-white);
         font-size: 2em;
         text-justify: left;
         margin-top: 15%;
@@ -358,19 +371,19 @@
         font-family: Corbel, sans-serif;
     }
     .port-entry {
-        background-color: var(--deep-forest-green);
+        background-color: var(--deep-deep-blue);
         border: 2px solid black;
         border-radius: 20px;
         padding: 2%;
     }
     #port a {
         text-decoration: none;
-        color: var(--off-white);
+        color: var(--comp-white);
     }
     /*-----------Contact Mobile-----------*/
     #contact {
         display: grid;
-        background-color: var(--light-tan);
+        background-color: var(--comp-white);
         width: 100%;
         height: 100vh;
         z-index: -2;
@@ -379,19 +392,19 @@
         display: none;
     }
     .contact-text {
-        background: var(--light-tan);
+        background: var(--comp-white);
         text-align: center;
         padding-left: 10%;
         padding-right: 15%;
         margin-top: 15%;
     }
     h1.ContactText1 {
-        color: var(--forest-green);
+        color: var(--deep-blue);
         font-size: 2em;
         font-family: Corbel, sans-serif;
     }
     h3.ContactText {
-        color: var(--forest-green);
+        color: var(--deep-blue);
         font-size: 1em;
         margin-bottom: 15%;
         font-family: Corbel, sans-serif;
@@ -419,7 +432,7 @@
         text-align: left;
     }
      ::placeholder {
-        color: var(--forest-green);
+        color: var(--deep-blue);
         opacity: 0.7;
         font-family: Corbel, sans-serif;
     }
@@ -432,12 +445,12 @@
         padding-bottom: 2%;
         border-radius: 10px;
         /* Rounded borders */
-        border: 2px solid var(--light-tan);
+        border: 2px solid var(--comp-white);
         box-sizing: border-box;
         /*Make sure that padding and width stays in place */
         margin-bottom: 1%;
         /* Bottom margin */
-        background-color: var(--light-tan);
+        background-color: var(--comp-white);
         box-shadow: 10px 10px 35px #816913;
     }
     input[type=email] {
@@ -448,22 +461,22 @@
         padding-bottom: 2%;
         border-radius: 10px;
         /* Rounded borders */
-        border: 2px solid var(--light-tan);
+        border: 2px solid var(--comp-white);
         box-sizing: border-box;
         /*Make sure that padding and width stays in place */
         margin-bottom: 1%;
         /* Bottom margin */
-        background-color: var(--light-tan);
+        background-color: var(--comp-white);
         box-shadow: 10px 10px 35px #816913;
     }
     input[type=text]:active,
     input[type=text]:focus {
-        border: 2px solid var(--forest-green);
+        border: 2px solid var(--deep-blue);
         outline: none;
     }
     input[type=email]:active,
     input[type=email]:focus {
-        border: 2px solid var(--forest-green);
+        border: 2px solid var(--deep-blue);
         outline: none;
     }
     textarea {
@@ -473,7 +486,7 @@
         /* Some padding */
         padding-bottom: 5%;
         border-radius: 10px;
-        border: 2px solid var(--light-tan);
+        border: 2px solid var(--comp-white);
         box-sizing: border-box;
         /*Make sure that padding and width stays in place */
         margin-bottom: 1%;
@@ -481,13 +494,13 @@
         resize: vertical;
         /* Allow the user to vertically resize the textarea (not horizontally) */
         z-index: 1;
-        background-color: var(--light-tan);
+        background-color: var(--comp-white);
         max-height: 8em;
         box-shadow: 10px 10px 35px #816913;
     }
     textarea:active,
     textarea:focus {
-        border: 2px solid var(--forest-green);
+        border: 2px solid var(--deep-blue);
         outline: none;
     }
     .form-button-div {
@@ -502,9 +515,9 @@
         z-index: 4;
         text-decoration: none;
         text-transform: uppercase;
-        color: var(--light-tan);
+        color: var(--comp-white);
         border-radius: 20px;
-        background: var(--forest-green);
+        background: var(--deep-blue);
     }
     .form-button:hover {
         padding-top: 2%;
@@ -514,16 +527,16 @@
         z-index: 4;
         text-decoration: none;
         text-transform: uppercase;
-        color: var(--light-tan);
+        color: var(--comp-white);
         border-radius: 20px;
-        background: var(--forest-green);
-        border: 2px solid var(--light-tan);
+        background: var(--deep-blue);
+        border: 2px solid var(--comp-white);
     }
     footer {
         display: grid;
         grid-template-columns: 100%;
         grid-auto-rows: minmax(100%, auto);
-        background-color: var(--forest-green);
+        background-color: var(--deep-blue);
         float: bottom;
         height: 50vh;
         text-align: center;
@@ -541,10 +554,10 @@
     }
     ul.footer-navbar li>a:link {
         text-decoration: none;
-        color: var(--light-tan);
+        color: var(--comp-white);
     }
     .credits {
-        color: var(--light-tan);
+        color: var(--comp-white);
         margin-top: 5%;
         font-family: Corbel, sans-serif;
     }
@@ -598,7 +611,7 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(100%, auto);
-        background-color: var(--forest-green);
+        background-color: var(--deep-blue);
         width: 100%;
         height: 100vh;
         z-index: -1;
@@ -609,11 +622,11 @@ body {
         float: center;
         /*Neomorphism Addition*/
         border-radius: 50%;
-        background: #1a3f12;
-        box-shadow: -16px 16px 68px #0a1907, 16px -16px 68px #2a651d;
+        background: var(--deep-blue);
+        box-shadow: -16px 16px 68px var(--blue-dark-shadow), 16px -16px 68px var(--blue-light-shadow);
     }
     .home-data {
-        background-color: var(--forest-green);
+        background-color: var(--deep-blue);
         display: inline-block;
         width: 100%;
         text-align: left;
@@ -622,14 +635,14 @@ body {
         padding-right: 15%;
         padding-top: 10%;
         padding-bottom: 15%;
-        border: 0.5em solid var(--norm-gold);
+        border: 0.5em solid var(--black-blue);
         border-bottom-style: hidden;
         border-right-style: hidden;
         border-top-style: hidden;
     }
     .home-data>a:link {
         text-decoration: none;
-        color: var(--light-tan);
+        color: var(--comp-white);
         font-size: 2em;
     }
     .headshot-data {
@@ -648,8 +661,8 @@ body {
         display: inline-block;
     }
     .contact-button {
-        background-color: var(--norm-gold);
-        color: var(--norm-gold);
+        background-color: var(--black-blue);
+        color: var(--comp-white);
         border-radius: 20px;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -658,13 +671,13 @@ body {
         text-decoration: none;
         text-transform: uppercase;
         /*Neomorphism Addition Gold*/
-        background: #1a3f12;
-        box-shadow: -16px 16px 68px #0a1907, 16px -16px 68px #2a651d;
+        background: var(--black-blue);
+        box-shadow: -16px 16px 68px var(--blue-dark-shadow), 16px -16px 68px var(--blue-light-shadow);
         font-family: Corbel, sans-serif;
     }
     .contact-button:hover {
-        background-color: var(--norm-gold);
-        color: var(--forest-green);
+        background-color: var(--comp-white);
+        color: var(--black-blue);
         border-radius: 20px;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -673,12 +686,12 @@ body {
         text-decoration: none;
         text-transform: uppercase;
         /*Neomorphism Addition Gold*/
-        background: linear-gradient(225deg, #aa8b19, #caa51e);
-        box-shadow: -16px 16px 68px #0a1907, 16px -16px 68px #2a651d;
+        background: var(--comp-white);
+        box-shadow: -16px 16px 68px var(--blue-dark-shadow), 16px -16px 68px var(--blue-light-shadow);
         font-family: Corbel, sans-serif;
     }
     #landing-page {
-        background-color: var(--forest-green);
+        background-color: var(--deep-blue);
         color: var(--norm-gold);
     }
     h1.landingText1 {
@@ -688,7 +701,7 @@ body {
         font-family: Corbel, sans-serif;
     }
     h3.landingText {
-        color: var(--light-tan);
+        color: var(--comp-white);
         font-size: 4em;
         margin-top: 0%;
         margin-bottom: 15%;
@@ -696,7 +709,7 @@ body {
     }
     #header-section {
         position: sticky;
-        background-color: var(--forest-green);
+        background-color: var(--deep-blue);
         width: 100%;
         height: 5rem;
         margin: 0;
@@ -721,12 +734,12 @@ body {
     }
     ul.navbar li>a:link {
         text-decoration: none;
-        color: var(--light-tan);
+        color: var(--comp-white);
         font-family: Corbel, sans-serif;
     }
     ul.navbar li>a:visited {
         text-decoration: none;
-        color: var(--light-tan);
+        color: var(--comp-white);
         font-family: Corbel, sans-serif;
     }
     #intro-box {
@@ -742,11 +755,11 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(100%, auto);
-        background-color: var(--light-tan);
+        background-color: var(--comp-white);
     }
     .about-text>h1 {
         display: inline-block;
-        color: var(--forest-green);
+        color: var(--deep-blue);
         font-size: 3em;
         text-justify: left;
         margin-top: 20%;
@@ -761,14 +774,14 @@ body {
         font-family: Corbel, sans-serif;
     }
     .about-text>p {
-        color: var(--rich-black);
+        color: var(--black-blue);
         font-size: 120%;
         text-justify: left;
         padding-right: 10%;
     }
     .about-text {
         display: inline-block;
-        color: var(--rich-black);
+        color: var(--black-blue);
         margin-left: 10%;
     }
     .about-info {
@@ -781,7 +794,7 @@ body {
         margin-top: 15%;
         margin-right: 10%;
         margin-left: 10%;
-        border: 0.5em solid var(--forest-green);
+        border: 0.5em solid var(--deep-blue);
         border-bottom-style: hidden;
         border-right-style: hidden;
         padding-left: 4%;
@@ -796,7 +809,7 @@ body {
         margin-top: 5%;
         margin-right: 10%;
         margin-left: 10%;
-        border: 0.5em solid var(--forest-green);
+        border: 0.5em solid var(--deep-blue);
         border-bottom-style: hidden;
         border-right-style: hidden;
         padding-left: 4%;
@@ -828,8 +841,8 @@ body {
         text-decoration: none;
     }
     .resume-link {
-        color: var(--deep-forest-green);
-        border: 2px solid var(--deep-forest-green);
+        color: var(--deep-deep-blue);
+        border: 2px solid var(--deep-deep-blue);
         border-radius: 20px;
         padding: 2%;
     }
@@ -838,15 +851,15 @@ body {
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(100%, auto);
         height: 100vh;
-        background-color: var(--forest-green);
-        color: var(--off-white);
+        background-color: var(--deep-blue);
+        color: var(--comp-white);
     }
     .port-data {
         margin-left: 10%;
     }
     .port-data>h1 {
         display: inline-block;
-        color: var(--off-white);
+        color: var(--comp-white);
         font-size: 3em;
         text-justify: left;
         margin-top: 15%;
@@ -861,20 +874,20 @@ body {
         font-family: Corbel, sans-serif;
     }
     .port-entry {
-        background-color: var(--deep-forest-green);
+        background-color: var(--deep-deep-blue);
         border: 2px solid black;
         border-radius: 20px;
         padding: 2%;
     }
     #port a {
         text-decoration: none;
-        color: var(--off-white);
+        color: var(--comp-white);
     }
     #contact {
         display: grid;
         grid-template-columns: 2fr 4fr;
         grid-auto-rows: minmax(100%, auto);
-        background-color: var(--light-tan);
+        background-color: var(--comp-white);
         width: 100%;
         height: 100vh;
         z-index: -2;
@@ -883,7 +896,7 @@ body {
         display: none;
     }
     .contact-text {
-        background: var(--light-tan);
+        background: var(--comp-white);
         display: inline-block;
         text-align: left;
         padding-left: 10%;
@@ -892,20 +905,20 @@ body {
         margin-bottom: 60%;
     }
     h1.ContactText1 {
-        color: var(--forest-green);
+        color: var(--deep-blue);
         font-size: 3em;
         margin-bottom: 0%;
         font-family: Corbel, sans-serif;
     }
     h3.ContactText {
-        color: var(--forest-green);
+        color: var(--deep-blue);
         font-size: 1.8em;
         margin-top: 0%;
         margin-bottom: 15%;
         font-family: Corbel, sans-serif;
     }
     .contact-form {
-        background: var(--norm-gold);
+        background: #141f59;
         float: left;
         padding-right: 10%;
         margin-top: 15%;
@@ -921,12 +934,13 @@ body {
     }
     label {
         font-family: Corbel, sans-serif;
+        color: var(--comp-white);
     }
     #field {
         text-align: left;
     }
      ::placeholder {
-        color: var(--forest-green);
+        color: var(--deep-blue);
         opacity: 0.7;
         font-family: Corbel, sans-serif;
     }
@@ -939,13 +953,13 @@ body {
         padding-bottom: 2%;
         border-radius: 10px;
         /* Rounded borders */
-        border: 2px solid var(--light-tan);
+        border: 2px solid var(--comp-white);
         box-sizing: border-box;
         /*Make sure that padding and width stays in place */
         margin-bottom: 1%;
         /* Bottom margin */
-        background-color: var(--light-tan);
-        box-shadow: 10px 10px 35px #816913;
+        background-color: var(--comp-white);
+        box-shadow: 10px 10px 35px #03050f;
     }
     input[type=email] {
         width: 100%;
@@ -955,22 +969,22 @@ body {
         padding-bottom: 2%;
         border-radius: 10px;
         /* Rounded borders */
-        border: 2px solid var(--light-tan);
+        border: 2px solid var(--comp-white);
         box-sizing: border-box;
         /*Make sure that padding and width stays in place */
         margin-bottom: 1%;
         /* Bottom margin */
-        background-color: var(--light-tan);
-        box-shadow: 10px 10px 35px #816913;
+        background-color: var(--comp-white);
+        box-shadow: 10px 10px 35px #03050f;
     }
     input[type=text]:active,
     input[type=text]:focus {
-        border: 2px solid var(--forest-green);
+        border: 2px solid var(--deep-blue);
         outline: none;
     }
     input[type=email]:active,
     input[type=email]:focus {
-        border: 2px solid var(--forest-green);
+        border: 2px solid var(--deep-blue);
         outline: none;
     }
     textarea {
@@ -980,7 +994,7 @@ body {
         /* Some padding */
         padding-bottom: 5%;
         border-radius: 10px;
-        border: 2px solid var(--light-tan);
+        border: 2px solid var(--comp-white);
         box-sizing: border-box;
         /*Make sure that padding and width stays in place */
         margin-bottom: 1%;
@@ -988,18 +1002,14 @@ body {
         resize: vertical;
         /* Allow the user to vertically resize the textarea (not horizontally) */
         z-index: 1;
-        background-color: var(--light-tan);
+        background-color: var(--comp-white);
         max-height: 8em;
-        box-shadow: 10px 10px 35px #816913;
+        box-shadow: 10px 10px 35px #03050f;
     }
     textarea:active,
     textarea:focus {
-        border: 2px solid var(--forest-green);
+        border: 2px solid var(--deep-blue);
         outline: none;
-    }
-    .contact-info {
-        background: linear-gradient(90deg, #aa8b19, #caa51e);
-        padding-left: 5%;
     }
     .form-button-div {
         margin-top: 30%;
@@ -1013,9 +1023,9 @@ body {
         z-index: 4;
         text-decoration: none;
         text-transform: uppercase;
-        color: var(--light-tan);
+        color: var(--comp-white);
         border-radius: 20px;
-        background: var(--forest-green);
+        background: var(--deep-blue);
     }
     .form-button:hover {
         padding-top: 2%;
@@ -1025,16 +1035,16 @@ body {
         z-index: 4;
         text-decoration: none;
         text-transform: uppercase;
-        color: var(--light-tan);
+        color: var(--comp-white);
         border-radius: 20px;
-        background: var(--forest-green);
-        border: 2px solid var(--light-tan);
+        background: var(--deep-blue);
+        border: 2px solid var(--comp-white);
     }
     footer {
         display: grid;
         grid-template-columns: 100%;
         grid-auto-rows: minmax(100%, auto);
-        background-color: var(--forest-green);
+        background-color: var(--deep-blue);
         float: bottom;
         height: 50vh;
         text-align: center;
@@ -1052,10 +1062,10 @@ body {
     }
     ul.footer-navbar li>a:link {
         text-decoration: none;
-        color: var(--light-tan);
+        color: var(--comp-white);
     }
     .credits {
-        color: var(--light-tan);
+        color: var(--comp-white);
         margin-top: 5%;
         font-family: Corbel, sans-serif;
     }
