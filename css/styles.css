@@ -123,13 +123,13 @@
         font-size: 16px;
         border: none;
         cursor: pointer;
-        margin-left: 35%;
+        margin-left: 55%;
         margin-right: 10%;
         align-self: center;
     }
     .mobile-logo-icon {
         margin-top: 5%;
-        margin-left: 15%;
+        margin-left: 10%;
     }
     .vedev-icon {
         height: 3em;
@@ -234,7 +234,7 @@
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(100%, auto);
         background-color: var(--light-tan);
-        height: 110vh;
+        height: 160vh;
         padding-top: 5em;
     }
     .about-text>h1 {
@@ -326,6 +326,7 @@
         border: 2px solid var(--deep-forest-green);
         border-radius: 20px;
         padding: 2%;
+        font-size: 75%;
     }
     /*-----------Portfolio Mobile-----------*/
     #port {
