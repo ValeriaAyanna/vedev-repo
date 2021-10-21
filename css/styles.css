@@ -417,6 +417,7 @@
         width: 90%;
         height: 24rem;
         margin-left: 5%;
+        position: fixed;
     }
     .form-lines {
         display: grid;
