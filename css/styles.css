@@ -410,7 +410,7 @@
         font-family: Corbel, sans-serif;
     }
     .contact-form {
-        background: var(--norm-gold);
+        background: #141f59;
         margin-top: 0%;
         padding-left: 5%;
         padding-right: 5%;
@@ -427,6 +427,7 @@
     }
     label {
         font-family: Corbel, sans-serif;
+        color: var(--comp-white);
     }
     #field {
         text-align: left;
@@ -451,7 +452,7 @@
         margin-bottom: 1%;
         /* Bottom margin */
         background-color: var(--comp-white);
-        box-shadow: 10px 10px 35px #816913;
+        box-shadow: 10px 10px 35px #03050f;
     }
     input[type=email] {
         width: 100%;
@@ -467,7 +468,7 @@
         margin-bottom: 1%;
         /* Bottom margin */
         background-color: var(--comp-white);
-        box-shadow: 10px 10px 35px #816913;
+        box-shadow: 10px 10px 35px #03050f;
     }
     input[type=text]:active,
     input[type=text]:focus {
@@ -496,7 +497,7 @@
         z-index: 1;
         background-color: var(--comp-white);
         max-height: 8em;
-        box-shadow: 10px 10px 35px #816913;
+        box-shadow: 10px 10px 35px #03050f;
     }
     textarea:active,
     textarea:focus {
