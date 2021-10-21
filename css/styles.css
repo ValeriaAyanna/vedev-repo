@@ -127,12 +127,6 @@
         margin-right: 10%;
         align-self: center;
     }
-    .mobile-home-icon {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 40%;
-        align-self: center;
-    }
     .mobile-logo-icon {
         margin-top: 5%;
         margin-left: 15%;
@@ -157,7 +151,7 @@
         list-style-type: none;
         margin: 0;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(100%, auto);
         width: 100%;
         justify-content: center;
