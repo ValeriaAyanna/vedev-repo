@@ -541,6 +541,7 @@
         float: bottom;
         height: 50vh;
         text-align: center;
+        z-index: 3;
     }
     ul.footer-navbar {
         list-style-type: none;
