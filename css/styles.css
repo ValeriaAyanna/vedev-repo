@@ -378,8 +378,8 @@
         margin-right: 10%;
     }
     .port-data>img {
-        height: auto;
-        width: auto;
+        height: 50%;
+        width: 50%;
     }
     #port>h1 {
         display: inline-block;
