@@ -377,9 +377,9 @@
         margin-left: 10%;
         margin-right: 10%;
     }
-    .port-data>img {
-        height: 50%;
-        width: 50%;
+    .port-entry>img {
+        height: auto;
+        width: 100%;
     }
     #port>h1 {
         display: inline-block;
