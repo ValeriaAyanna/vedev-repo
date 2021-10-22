@@ -398,6 +398,12 @@
         font-family: Corbel, sans-serif;
     }
     .port-entry {
+        background-image: url(../img/square-all-angles-PNG.png);
+        background-repeat: no repeat;
+        background-position: right;
+        background-size: cover;
+        width: auto;
+        height: auto;
         background-color: var(--comp-white);
         border: 2px solid black;
         border-radius: 20px;
@@ -919,11 +925,17 @@ body {
         margin-right: 10%;
     }
     .port-entry {
+        background-image: url(../img/square-all-angles-PNG.png);
+        background-repeat: no repeat;
+        background-position: right;
+        background-size: fit;
+        width: auto;
+        height: 75%;
         background-color: var(--comp-white);
         border: 2px solid black;
         border-radius: 20px;
         padding: 2%;
-        height: 75%;
+        /*height: 75%;*/
         margin: 5%;
     }
     .port-entry-other {
