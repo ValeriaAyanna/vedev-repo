@@ -613,7 +613,10 @@
 
 body {
     overflow-y: auto;
+    overflow-x: hidden;
     margin: 0;
+    width: 100%;
+    background-color: red;
 }
 
 @media only screen and (min-width: 691px) {
