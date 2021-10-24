@@ -587,7 +587,7 @@ body {
         margin: 0;
         padding-top: 10%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-auto-rows: minmax(100%, auto);
         padding-left: 0;
     }
@@ -1172,7 +1172,7 @@ body {
         margin: 0;
         padding-top: 10%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-auto-rows: minmax(100%, auto);
     }
     #indiv-footer-icon {
@@ -1714,7 +1714,7 @@ body {
         margin: 0;
         padding-top: 10%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-auto-rows: minmax(100%, auto);
     }
     #indiv-footer-icon {
@@ -2253,7 +2253,7 @@ body {
         margin: 0;
         padding-top: 10%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-auto-rows: minmax(100%, auto);
     }
     #indiv-footer-icon {
