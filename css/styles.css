@@ -2249,7 +2249,7 @@ body {
         grid-auto-rows: minmax(100%, auto);
         background-color: var(--deep-blue);
         float: bottom;
-        height: 50vh;
+        height: 60vh;
         text-align: center;
     }
     ul.footer-navbar {
