@@ -50,9 +50,9 @@ body {
 /*  Mobile Portrait Media Query */
 
 
-/*@media only screen and (max-width: 690px) and (min-height: 701px)*/
+/*@media only screen and (max-width: 500px) and (min-height: 701px)*/
 
-@media only screen and (max-width: 500px) and (min-height: 701px) {
+@media only screen and (max-width: 500px) and (min-height: 600px) {
     /* Dropdown button on hover & focus */
     .dropdown-button:hover,
     .dropdown-button:focus {
