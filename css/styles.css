@@ -1,21 +1,8 @@
-/*:root {
-    --forest-green: #1a3f12;
-    --deep-deep-blue: #132c0d;
-    --rich-black: #000a00;
-    --norm-gold: #bd9a1c;
-    --light-tan: #dbd5ad;
-    --off-white: #f0eacd;
-}*/
-
 :root {
     --deep-blue: #1a2a77;
-    /*forest-green*/
     --deep-deep-blue: #141f59;
-    /*deep-deep-blue*/
     --black-blue: #03050f;
-    /*norm-gold*/
     --comp-white: #eef0ff;
-    /*light-tan*/
     --blue-light-shadow: #374588;
     --blue-dark-shadow: #0a102d;
     --lime-green: #9fc131;
@@ -30,14 +17,6 @@
 * {
     box-sizing: border-box;
 }
-
-
-/*@media only screen and (orientation:landscape) and (max-width: 768px) {
-    body {
-        height: 100vw;
-        transform: rotate(90deg);
-    }
-}*/
 
 body {
     overflow-y: auto;
@@ -367,6 +346,7 @@ body {
     a:link,
     a:visited {
         text-decoration: none;
+        color: var(--blue-dark-shadow);
     }
     .resume-link {
         color: var(--comp-white-dark);
@@ -952,6 +932,7 @@ body {
     a:link,
     a:visited {
         text-decoration: none;
+        color: var(--blue-dark-shadow);
     }
     .resume-link {
         color: var(--comp-white-dark);
@@ -1496,6 +1477,7 @@ body {
     a:link,
     a:visited {
         text-decoration: none;
+        color: var(--blue-dark-shadow);
     }
     .resume-link {
         color: var(--comp-white-dark);
@@ -2036,6 +2018,7 @@ body {
     a:link,
     a:visited {
         text-decoration: none;
+        color: var(--blue-dark-shadow);
     }
     .resume-link {
         color: var(--comp-white-dark);
