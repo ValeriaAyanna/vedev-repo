@@ -1220,9 +1220,9 @@ body {
 
 
 /*  Mobile Landscape Media Queries
- @media only screen and (max-width: 768px) and (max-height: 425px) and (orientation: landscape)*/
+ @media only screen and (max-width: 860px) and (max-height: 425px) and (orientation: landscape)*/
 
-@media only screen and (max-width: 860px) and (max-height: 425px) and (orientation: landscape) {
+@media only screen and (max-width: 930px) and (max-height: 430px) and (orientation: landscape) {
     /*Dont Show*/
     .mobile-home-icon {
         display: none !important;
@@ -1761,9 +1761,9 @@ body {
 
 
 /* Desktop and Tablet Media Queries 
-@media only screen and (min-width: 691px)*/
+@media only screen and (min-width: 691px) and (min-height: 426px)*/
 
-@media only screen and (min-width: 691px) and (min-height: 426px) {
+@media only screen and (min-width: 691px) and (min-height: 431px) {
     /*Dont Show*/
     .mobile-home-icon {
         display: none !important;
