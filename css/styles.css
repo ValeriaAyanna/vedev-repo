@@ -1220,9 +1220,9 @@ body {
 
 
 /*  Mobile Landscape Media Queries
- @media only screen and (max-width: 768px) and (max-height: 700px)*/
+ @media only screen and (max-width: 768px) and (max-height: 425px) and (orientation: landscape)*/
 
-@media only screen and (max-width: 768px) and (max-height: 425px) and (orientation: landscape) {
+@media only screen and (max-width: 800px) and (max-height: 425px) and (orientation: landscape) {
     /*Dont Show*/
     .mobile-home-icon {
         display: none !important;
@@ -1727,7 +1727,7 @@ body {
         grid-auto-rows: minmax(100%, auto);
         background-color: var(--deep-blue);
         float: bottom;
-        height: 80vh;
+        height: 100vh;
         text-align: center;
     }
     ul.footer-navbar {
