@@ -2116,9 +2116,9 @@ body {
         float: left;
         padding-right: 10%;
         padding-left: 5%;
-        margin-top: 15%;
+        margin-top: 10%;
         margin-bottom: 15%;
-        height: 80%;
+        height: 85%;
     }
     .top-fields-grid {
         display: grid;
