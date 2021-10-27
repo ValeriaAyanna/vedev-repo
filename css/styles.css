@@ -396,7 +396,7 @@ body {
         background-position: center;
         background-size: cover;
         width: auto;
-        height: auto;
+        height: 90%;
         background-color: var(--comp-white);
         border: 2px solid black;
         border-radius: 20px;
