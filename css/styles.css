@@ -720,13 +720,13 @@ ul.footer-navbar li>a:link {
         background-size: cover;
         width: 100%;
         height: max-content;
-        padding-bottom: 6rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(auto, 100%);
+        padding-bottom: 11rem;
     }
     #trial-run-headshot-box {
-        padding-top: 12rem;
+        padding-top: 20rem;
         /*background-image: url(../img/new-mobile-background-PNG-test.png);*/
         margin: auto;
         justify-content: center;
@@ -740,7 +740,7 @@ ul.footer-navbar li>a:link {
         background: var(--deep-blue);
     }
     h1.trial-run-landingText1 {
-        padding-top: 12rem;
+        padding-top: 20rem;
         text-align: center;
         color: var(--dark-gray);
         font-size: 2.5rem;
@@ -795,8 +795,8 @@ ul.footer-navbar li>a:link {
         grid-auto-rows: minmax(auto, 100%);
         background-color: var(--comp-white);
         height: fit-content;
-        padding-top: 5em;
-        padding-bottom: 4rem;
+        padding-top: 10em;
+        padding-bottom: 13rem;
     }
     /*Portfolio*/
     .port-data {
@@ -805,8 +805,11 @@ ul.footer-navbar li>a:link {
         grid-auto-rows: minmax(min-content, max-content);
         margin-left: 2rem;
         margin-right: 2rem;
-        padding-bottom: 5rem;
+        padding-bottom: 25rem;
         overflow-wrap: normal;
+    }
+    #contact {
+        padding-top: 5rem;
     }
     .contact-form {
         background: #141f59;
@@ -832,13 +835,13 @@ ul.footer-navbar li>a:link {
         background-size: cover;
         width: 100%;
         height: max-content;
-        padding-bottom: 6rem;
+        padding-bottom: 9rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(auto, 100%);
     }
     #trial-run-headshot-box {
-        padding-top: 10rem;
+        padding-top: 18rem;
         margin: auto;
         justify-content: center;
         width: auto;
@@ -850,7 +853,7 @@ ul.footer-navbar li>a:link {
         background: var(--deep-blue);
     }
     h1.trial-run-landingText1 {
-        padding-top: 12rem;
+        padding-top: 18rem;
         text-align: center;
         color: var(--dark-gray);
         font-size: 2.5rem;
@@ -905,8 +908,8 @@ ul.footer-navbar li>a:link {
         grid-auto-rows: minmax(auto, 100%);
         background-color: var(--comp-white);
         height: fit-content;
-        padding-top: 5em;
-        padding-bottom: 4rem;
+        padding-top: 9em;
+        padding-bottom: 8rem;
         padding-left: 3rem;
         padding-right: 3rem;
     }
@@ -919,14 +922,16 @@ ul.footer-navbar li>a:link {
         margin-right: 2rem;
         padding-left: 3rem;
         padding-right: 3rem;
-        padding-bottom: 5rem;
+        padding-bottom: 20rem;
+        padding-top: 4rem;
         overflow-wrap: normal;
     }
     #contact {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(auto, 100%);
-        padding-top: 4rem;
+        padding-top: 6rem;
+        padding-bottom: 15rem;
     }
     .contact-form {
         background: #141f59;
@@ -948,14 +953,14 @@ ul.footer-navbar li>a:link {
         background-image: url(../img/new-mobile-background-PNG-crop-3.png);
         background-size: cover;
         width: 100%;
-        height: max-content;
+        height: min-content;
         padding-bottom: 6rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(auto, 100%);
     }
     #trial-run-headshot-box {
-        padding-top: 10rem;
+        padding-top: 20rem;
         margin: auto;
         justify-content: center;
         width: auto;
@@ -967,7 +972,7 @@ ul.footer-navbar li>a:link {
         background: var(--deep-blue);
     }
     h1.trial-run-landingText1 {
-        padding-top: 13rem;
+        padding-top: 20rem;
         text-align: center;
         color: var(--dark-gray);
         font-size: 2.5rem;
@@ -1022,8 +1027,8 @@ ul.footer-navbar li>a:link {
         grid-auto-rows: minmax(auto, 100%);
         background-color: var(--comp-white);
         height: fit-content;
-        padding-top: 5em;
-        padding-bottom: 4rem;
+        padding-top: 11em;
+        padding-bottom: 18rem;
         padding-left: 3rem;
         padding-right: 3rem;
     }
@@ -1036,7 +1041,7 @@ ul.footer-navbar li>a:link {
         margin-right: 2rem;
         padding-left: 3rem;
         padding-right: 3rem;
-        padding-bottom: 5rem;
+        padding-bottom: 20rem;
         overflow-wrap: normal;
     }
     #contact {
